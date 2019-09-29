@@ -16,11 +16,13 @@
     font-weight: bold;
 }
 
-.section-title {
-    color: #3f3e3e;
-    font-size: 3.4em;
-    font-family: "Playfair Display", "Times New Roman", serif;
-    font-weight: normal;
+footer {
+    padding: 3rem 0;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #3f3e3e;
+    border-top: .05rem solid #e5e5e5;
 }
 
 h4 {
@@ -29,11 +31,68 @@ h4 {
     font-weight: normal;
 }
 
+.section-title {
+    color: #3f3e3e;
+    font-size: 3.4em;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: normal;
+}
+
 .normal-text {
     color: #2f2f2f;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: "Latin Modern", "Times New Roman", serif;
     font-weight: normal;
 }
 
-.top-buffer { margin-top:20px; }
+.padding-buffer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-left {
+    margin-bottom: 0px;
+    margin-left: 45px;
+    padding-left: 5px;
+    font-size: 2em;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+.footer-right {
+    margin-bottom: 0px;
+    margin-right: 40px;
+    font-size: 1.2em;
+    color: #ffffff;
+    font-family: "Latin Modern", "Times New Roman", serif;
+    font-weight: normal;
+    text-align: right;
+}
+
+.footer-text-left {
+    margin-bottom: 0px;
+}
+
+a.email:link, a.email:visited, a.email:hover, a.email:active {
+    color: #ffffff;
+}
+
+.email {
+    padding-right: 5px;
+}
+
+.icon-boundary {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+a.icon:link, a.icon:visited, a.icon:active {
+    color: #ffffff;
+}
+
+a.icon:hover {
+    color: #9b9b9b;
+}

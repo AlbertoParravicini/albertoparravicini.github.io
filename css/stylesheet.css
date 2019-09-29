@@ -11,9 +11,9 @@
 }
 
 @font-face {
-    font-family: "Latin Modern Bold";
+    font-family: "Latin Modern";
     src: url("../font/lmroman10-bold.otf");
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .section-title {
@@ -35,3 +35,5 @@ h4 {
     font-family: "Latin Modern", "Times New Roman", serif;
     font-weight: normal;
 }
+
+.top-buffer { margin-top:20px; }

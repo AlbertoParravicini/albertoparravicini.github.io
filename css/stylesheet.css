@@ -214,3 +214,12 @@ a.cv:link, a.cv:visited, a.cv:active {
 a.cv:hover {
     color: #aaa9a9;
 }
+
+.drawing-box {
+    padding: 0px;
+}
+
+.container-margin {
+    padding-left: 0em;
+    padding-right: 0em;
+}

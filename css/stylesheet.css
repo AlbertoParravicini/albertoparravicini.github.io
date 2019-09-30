@@ -195,10 +195,22 @@ a.jumbotron-icon:hover, a.jumbotron-top-link:hover, a.jumbotron-email:hover {
     color: #aaa9a9;
 }
 
+.jumbotron-icon-list {
+    margin-top: 10px;
+}
+
 .jumbotron-email {
     font-size: 1.1em;
     margin-bottom: 1rem;
     color: #ffffff;
     font-family: "Latin Modern", "Times New Roman", serif;
     font-weight: normal;
+}
+
+a.cv:link, a.cv:visited, a.cv:active {
+    color: #2f2f2f;
+}
+
+a.cv:hover {
+    color: #aaa9a9;
 }

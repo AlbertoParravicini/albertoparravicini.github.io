@@ -82,8 +82,8 @@ h4 {
 }
 
 .footer-left {
-    margin-bottom: 0px;
-    padding-left: 0em;
+    /* margin-bottom: 0px;
+    padding-left: 0em; */
     font-size: 2em;
     font-family: "Playfair Display", "Times New Roman", serif;
     font-weight: normal;
@@ -91,8 +91,8 @@ h4 {
 }
 
 .footer-right {
-    margin-bottom: 0px;
-    padding-right: 0em;
+    /* margin-bottom: 0px;
+    padding-right: 0em; */
     font-size: 1.2em;
     color: #ffffff;
     font-family: "Latin Modern", "Times New Roman", serif;
@@ -184,7 +184,9 @@ a.icon:hover, a.top-link:hover, a.email:hover {
 }
 
 .image-face {
-    object-fit: cover;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
 }
 
 a.jumbotron-icon:link, a.jumbotron-icon:visited, a.jumbotron-icon:active, a.jumbotron-top-link:link, a.jumbotron-top-link:visited, a.jumbotron-top-link:active, a.jumbotron-email:link, a.jumbotron-email:visited, a.jumbotron-email:active {
@@ -215,11 +217,14 @@ a.cv:hover {
     color: #aaa9a9;
 }
 
-.drawing-box {
+/* .drawing-box {
     padding: 0px;
-}
+} */
 
-.container-margin {
+/* .container-margin {
     padding-left: 0em;
     padding-right: 0em;
-}
+    margin-left: 1em;
+    margin-right: 1em;
+} */
+

@@ -2,120 +2,124 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Alberto Parravicini</title>
-    <meta name="author" content="Alberto Parravicini">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	<title>Alberto Parravicini</title>
+	<meta name="author" content="Alberto Parravicini">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Load Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Load Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Load Playfair font -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <!-- Load CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
-    <!-- Fontawesome icons -->
-    <script src="https://kit.fontawesome.com/05e0ed1a1e.js" crossorigin="anonymous"></script>
-    <!-- P5, used for drawing -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+	<!-- Load Playfair font -->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+	<!-- Load CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
+	<!-- Fontawesome icons -->
+	<script src="https://kit.fontawesome.com/05e0ed1a1e.js" crossorigin="anonymous"></script>
+	<!-- P5, used for drawing -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
 
-    <!-- Script used for drawing -->
-    <script type="text/javascript" src="js/test.js"></script>
+	<!-- Script used for drawing -->
+	<script type="text/javascript" src="js/test.js"></script>
 
 </head>
 
 <body>
-    <!-- TOP BAR -->
-    <nav class="navbar navbar-expand-lg custom-navbar">
-        <div class="navbar-brand navbar-text">Alberto Parravicini</div>
-        <button class="navbar-toggler navbar-button-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">Menu
-        </button>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-                <li class="nav-item">
-                    <a class="nav-link top-link navbar-text" href="#bio">Biography</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link top-link navbar-text" href="#cv">CV</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link top-link navbar-text" href="#talks">Talks</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link top-link navbar-text" href="#papers">Publications</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+	<!-- TOP BAR -->
+	<nav class="navbar navbar-expand-lg custom-navbar">
+		<div class="navbar-brand navbar-text">Alberto Parravicini</div>
+		<button class="navbar-toggler navbar-button-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">Menu
+		</button>
+		<div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+			<ul class="navbar-nav ml-auto flex-nowrap">
+				<li class="nav-item">
+					<a class="nav-link top-link navbar-text" href="#bio">Biography</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link top-link navbar-text" href="#cv">CV</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link top-link navbar-text" href="#talks">Talks</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link top-link navbar-text" href="#papers">Publications</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-    <!-- JUMBOTRON -->
-    <div class="jumbotron jumbotron-fluid jumbotron-main">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-4 jumbotron-left">
-                    <img src="resources/img/alberto.jpg" alt="My face!" class="img-fluid image-face">
+	<!-- JUMBOTRON -->
+	<div class="jumbotron jumbotron-fluid jumbotron-main">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="hidden-xs col-xl-2">
+					</div>
+				<div class="col-10 col-sm-8 col-md-5 col-lg-4 col-xl-4 jumbotron-left">
+					<img src="resources/img/alberto.jpg" alt="My face!" class="img-fluid image-face">
+				</div>
+				<div class="col-10 col-sm-8 col-md-7 col-lg-4 col-xl-4 jumbotron-right">
+					<!-- NAME -->
+					<div class="row text-right justify-content-end">
+						<h1 class="col jumbotron-right-name">Alberto<br>Parravicini</h1>
+					</div>
+					<!-- INTRO -->
+					<div class="row text-right justify-content-end">
+						<p class="col normal-text">Ph.D. student at Politecnico di Milano and NECSTLab,<br>working on
+							High-Performance Graph Analytics</p>
+					</div>
+					<!-- MAIL -->
+					<div class="row text-right justify-content-end">
+						<div class="col jumbotron-email">
+							<script language="JavaScript">
+								var username = "alberto.parravicini";
+								var hostname = "polimi.it";
+								var linktext = username + "@" + hostname;
+								document.write("<a class='jumbotron-email' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+							</script>
+						</div>
+					</div>
+					<!-- ICON LIST -->
+					<div class="row text-right justify-content-end">
+						<div class="col jumbotron-right-list">
+							<ul class="list-inline jumbotron-icon-list">
+								<li class="list-inline-item"><a class="jumbotron-icon"
+									href="https://github.com/AlbertoParravicini" target="_blank"><i
+										class="fab fa-github fa-2x"></i></a></li>
+								<li class="list-inline-item"><a class="jumbotron-icon"
+									href="https://bitbucket.org/AlbertoParravicini" target="_blank"><i
+										class="fab fa-bitbucket fa-2x" href="" target="_blank"></i></a></li>
+								<li class="list-inline-item"> <a class="jumbotron-icon"
+									href="https://www.linkedin.com/in/alberto-parravicini" target="_blank">
+									<i class="fab fa-linkedin fa-2x" href="" target="_blank"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
                 </div>
-                <div class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-6  jumbotron-right">
-                    <!-- NAME -->
-                    <div class="row text-right justify-content-end">
-                        <h1 class="col jumbotron-right-name">Alberto<br>Parravicini</h1>
-                    </div>
-                    <!-- INTRO -->
-                    <div class="row text-right justify-content-end">
-                        <p class="col normal-text">Ph.D. student at Politecnico di Milano and NECSTLab,<br>working on
-                            High-Performance Graph Analytics</p>
-                    </div>
-                    <!-- MAIL -->
-                    <div class="row text-right justify-content-end">
-                        <div class="col jumbotron-email">
-                            <script language="JavaScript">
-                                var username = "alberto.parravicini";
-                                var hostname = "polimi.it";
-                                var linktext = username + "@" + hostname;
-                                document.write("<a class='jumbotron-email' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
-                            </script>
-                        </div>
-                    </div>
-                    <!-- ICON LIST -->
-                    <div class="row text-right justify-content-end">
-                        <div class="col jumbotron-right-list">
-                            <ul class="list-inline jumbotron-icon-list">
-                                <li class="list-inline-item"><a class="jumbotron-icon"
-                                        href="https://github.com/AlbertoParravicini" target="_blank"><i
-                                            class="fab fa-github fa-2x"></i></a></li>
-                                <li class="list-inline-item"><a class="jumbotron-icon"
-                                        href="https://bitbucket.org/AlbertoParravicini" target="_blank"><i
-                                            class="fab fa-bitbucket fa-2x" href="" target="_blank"></i></a></li>
-                                <li class="list-inline-item"> <a class="jumbotron-icon"
-                                        href="https://www.linkedin.com/in/alberto-parravicini" target="_blank">
-                                        <i class="fab fa-linkedin fa-2x" href="" target="_blank"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="hidden-xs col-xl-2">
+					</div>
+			</div>
+		</div>
+	</div>
 
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- MAIN CONTENT -->
+	<div class="container-fluid container-margin">
+		<div class="row justify-content-center">
+			<!-- DRAWING DEMO -->
+			<div class="col-1 col-sm-2 col-md-2 drawing-box" id="drawing-box">
+				<div id="drawing-canvas"></div>
+			</div>
 
-    <!-- MAIN CONTENT -->
-    <div class="container-fluid container-margin">
-        <div class="row justify-content-center">
-            <!-- DRAWING DEMO -->
-            <div class="col-1 col-md-2 drawing-box" id="drawing-box">
-                <div id="drawing-canvas"></div>
-            </div>
-
-            <!-- START OF MAIN CONTENT -->
-            <div class="col-8">
-                <!-- BIOGRAPHY -->
-                <div class="row justify-content-center padding-buffer">
-                    <div class="col">
-                        <h1 class="section-title" id="bio">Biography</h1>
-                        <p class="normal-text text-justify">
-                            I'm a Ph.D student in Computer Science and Engineering at Politecnico di Milano,
+			<!-- START OF MAIN CONTENT -->
+			<div class="col-10 col-sm-8 col-md-8">
+				<!-- BIOGRAPHY -->
+				<div class="row justify-content-center padding-buffer">
+					<div class="col">
+						<h1 class="section-title" id="bio">Biography</h1>
+						<p class="normal-text text-justify">
+							I'm a Ph.D student in Computer Science and Engineering at Politecnico di Milano,
                             working at the Novel Emerging Computing System Technologies Laboratory (NECSTLab) under the
                             guidance
                             of professor Marco Santambrogio. My research is centered around high-performance computing
@@ -124,221 +128,221 @@
                             making
                             heterogeneous computing more accessible to everyone.
                             I've received my Bachelor and Master degrees at Politecnico di
-                            Milano, and studied at the Ecole Polytechnique de Bruxelles.<br>
-                            I like things that go fast, making things go faster, macro photography and hot enamel
-                            handicraft.
-                        </p>
-                        <div>
-                            <h4>
-                                <ul>
-                                    <li id="cv">
-                                        <a href="resources/cv/curriculum_vitae.pdf" target="_blank"
-                                            class="cv">Curriculum
-                                            Vitae</a>
-                                    </li>
-                                </ul>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- END OF BIOGRAPHY -->
+							Milano, and studied at the Ecole Polytechnique de Bruxelles.<br>
+							I like things that go fast, making things go faster, macro photography and hot enamel
+							handicraft.
+						</p>
+						<div>
+							<h4>
+								<ul>
+									<li id="cv">
+										<a href="resources/cv/curriculum_vitae.pdf" target="_blank"
+											class="cv">Curriculum
+											Vitae</a>
+									</li>
+								</ul>
+							</h4>
+						</div>
+					</div>
+				</div>
+				<!-- END OF BIOGRAPHY -->
 
-                <!-- TALKS -->
-                <div class="row justify-content-center padding-buffer">
-                    <div class="col">
-                        <h1 class="section-title" id="talks">Talks & Blogs</h1>
-                        <div class="normal-text text-justify">
-                            <ul>
-                                <li>
-                                    <b>Fast Entity Linking via Graph Embeddings.</b> Presented at GRADES-NDA 2019,
-                                    Amsterdam. <a
-                                        href="resources/talks/[Grades] Fast Entity Linking via Graph Embeddings.pdf"
-                                        target="_blank">Slides</a>
-                                </li>
-                                <li>
-                                    <b>Gospel - High-performance Graph Analytics.</b> Research line at NECSTLab. <a
-                                        href="resources/talks/[NGCX-Google] Gospel - Research Line.pdf"
-                                        target="_blank">Slides</a>
-                                </li>
-                                <li>
-                                    <b>Blog post on Entity Linking</b> (a.k.a. Named Entity Disambiguation) on the
-                                    Oracle
-                                    Artificial
-                                    Intelligence Blog. <a
-                                        href="https://blogs.oracle.com/ai/named-entity-disambiguation-with-knowledge-graphs-v2"
-                                        target="_blank">Part 1</a>. <a
-                                        href="https://blogs.oracle.com/ai/using-graph-embeddings-for-fast-named-entity-disambiguation"
-                                        target="_blank">Part 2</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- END OF TALKS -->
+				<!-- TALKS -->
+				<div class="row justify-content-center padding-buffer">
+					<div class="col">
+						<h1 class="section-title" id="talks">Talks & Blogs</h1>
+						<div class="normal-text text-justify">
+							<ul>
+								<li>
+									<b>Fast Entity Linking via Graph Embeddings.</b> Presented at GRADES-NDA 2019,
+									Amsterdam. <a
+										href="resources/talks/[Grades] Fast Entity Linking via Graph Embeddings.pdf"
+										target="_blank">Slides</a>
+								</li>
+								<li>
+									<b>Gospel - High-performance Graph Analytics.</b> Research line at NECSTLab. <a
+										href="resources/talks/[NGCX-Google] Gospel - Research Line.pdf"
+										target="_blank">Slides</a>
+								</li>
+								<li>
+									<b>Blog post on Entity Linking</b> (a.k.a. Named Entity Disambiguation) on the
+									Oracle
+									Artificial
+									Intelligence Blog. <a
+										href="https://blogs.oracle.com/ai/named-entity-disambiguation-with-knowledge-graphs-v2"
+										target="_blank">Part 1</a>. <a
+										href="https://blogs.oracle.com/ai/using-graph-embeddings-for-fast-named-entity-disambiguation"
+										target="_blank">Part 2</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- END OF TALKS -->
 
-                <!-- SELECTED PAPERS -->
-                <div class="row justify-content-center padding-buffer">
-                    <div class="col">
-                        <h1 class="section-title" id="papers">Selected Publications</h1>
-                        <div class="normal-text text-justify">
-                            <ul>
-                                <li>
-                                    <b>Parravicini, A.</b>, Patra, R., Bartolini, D. B., & Santambrogio, M. D. (2019,
-                                    June).
-                                    <b>Fast and Accurate Entity Linking via Graph Embedding.</b> In Proceedings of the
-                                    2nd
-                                    Joint
-                                    International Workshop on Graph Data Management
-                                    Experiences & Systems (GRADES) and Network Data Analytics (NDA) (p. 10). ACM. <a
-                                        href="resources/paper/2019-Fast_and_Accurate_Entity_Linking_via_Graph_Embedding.pdf"
-                                        target="_blank">Download</a>
-                                </li>
-                                <li>
-                                    Stornaiuolo, L., <b>Parravicini, A.</b>, Durelli, G., & Santambrogio, M. D. (2017,
-                                    May).
-                                    <b>Exploiting fpgas from higher level languages a signal analysis case study.</b> In
-                                    2017
-                                    IEEE
-                                    International Parallel and Distributed Processing
-                                    Symposium Workshops (IPDPSW) (pp. 132-140). IEEE. <a
-                                        href="resources/paper/2017-Exploiting_FPGAs_from_higher_level_languages_a_signal_analysis_case_study.pdf"
-                                        target="_blank">Download</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- END OF SELECTED PAPERS -->
+				<!-- SELECTED PAPERS -->
+				<div class="row justify-content-center padding-buffer">
+					<div class="col">
+						<h1 class="section-title" id="papers">Selected Publications</h1>
+						<div class="normal-text text-justify">
+							<ul>
+								<li>
+									<b>Parravicini, A.</b>, Patra, R., Bartolini, D. B., & Santambrogio, M. D. (2019,
+									June).
+									<b>Fast and Accurate Entity Linking via Graph Embedding.</b> In Proceedings of the
+									2nd
+									Joint
+									International Workshop on Graph Data Management
+									Experiences & Systems (GRADES) and Network Data Analytics (NDA) (p. 10). ACM. <a
+										href="resources/paper/2019-Fast_and_Accurate_Entity_Linking_via_Graph_Embedding.pdf"
+										target="_blank">Download</a>
+								</li>
+								<li>
+									Stornaiuolo, L., <b>Parravicini, A.</b>, Durelli, G., & Santambrogio, M. D. (2017,
+									May).
+									<b>Exploiting fpgas from higher level languages a signal analysis case study.</b> In
+									2017
+									IEEE
+									International Parallel and Distributed Processing
+									Symposium Workshops (IPDPSW) (pp. 132-140). IEEE. <a
+										href="resources/paper/2017-Exploiting_FPGAs_from_higher_level_languages_a_signal_analysis_case_study.pdf"
+										target="_blank">Download</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- END OF SELECTED PAPERS -->
 
-                <!-- ALL PAPERS -->
-                <div class="row justify-content-center padding-buffer">
-                    <div class="col">
-                        <h1 class="section-title">All Publications</h1>
-                        <div class="normal-text text-justify">
-                            <ul>
-                                <li>
-                                    Piccinotti, D., Ramalli, E., <b>Parravicini, A.</b>, Brondolin, R., & Santambrogio,
-                                    M.
-                                    D.
-                                    (2019, September). <b>Solving write conflicts in GPU-accelerated graph computation:
-                                        a
-                                        PageRank
-                                        case-study.</b> In IEEE International Forum on
-                                    Research and Technologies for Society and Industry (RTSI). IEEE. <a
-                                        href="resources/paper/Solving_write_conflicts_in_GPU-accelerated_graph_computation_a_PageRank_case-study.pdf"
-                                        target="_blank">Download</a>
-                                </li>
-                                <li>
-                                    Bertoldi, M. A., Cellamare, L., <b>Parravicini, A.</b>, & Santambrogio, M. D. (2019,
-                                    September). <b>Exploring transductive and inductive methods for vertex embedding in
-                                        biological
-                                        networks.</b> In IEEE International Forum on Research
-                                    and Technologies for Society and Industry (RTSI). IEEE. <a
-                                        href="resources/paper/Exploring_transductive_and_inductive_methods_for_vertex_embedding_in_biological_networks.pdf"
-                                        target="_blank">Download</a>
-                                </li>
-                                <li>
-                                    <b>Parravicini, A.</b>, Patra, R., Bartolini, D. B., & Santambrogio, M. D. (2019,
-                                    June).
-                                    <b>Fast and Accurate Entity Linking via Graph Embedding.</b> In Proceedings of the
-                                    2nd
-                                    Joint
-                                    International Workshop on Graph Data Management
-                                    Experiences & Systems (GRADES) and Network Data Analytics (NDA) (p. 10). ACM. <a
-                                        href="resources/paper/2019-Fast_and_Accurate_Entity_Linking_via_Graph_Embedding.pdf"
-                                        target="_blank">Download</a>
-                                </li>
-                                <li>
-                                    Stornaiuolo, L., <b>Parravicini, A.</b>, Sciuto, D., & Santambrogio, M. D. (2018,
-                                    May).
-                                    <b>FIDA: a framework to automatically integrate FPGA kernels within Data-Science
-                                        applications.</b>
-                                    In 2018 IEEE International Parallel and Distributed
-                                    Processing Symposium Workshops (IPDPSW) (pp. 198-201). IEEE. <a
-                                        href="resources/paper/2018-FIDA_A_framework_to_automatically_integrate_FPGA_kernels_within_data-science_applications.pdf"
-                                        target="_blank">Download</a>
-                                </li>
-                                <li>
-                                    Stornaiuolo, L., <b>Parravicini, A.</b>, Durelli, G., & Santambrogio, M. D. (2017,
-                                    May).
-                                    <b>Exploiting fpgas from higher level languages a signal analysis case study.</b> In
-                                    2017
-                                    IEEE
-                                    International Parallel and Distributed Processing
-                                    Symposium Workshops (IPDPSW) (pp. 132-140). IEEE. <a
-                                        href="resources/paper/2017-Exploiting_FPGAs_from_higher_level_languages_a_signal_analysis_case_study.pdf"
-                                        target="_blank">Download</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- END OF ALL PAPERS -->
-            </div>
+				<!-- ALL PAPERS -->
+				<div class="row justify-content-center padding-buffer">
+					<div class="col">
+						<h1 class="section-title">All Publications</h1>
+						<div class="normal-text text-justify">
+							<ul>
+								<li>
+									Piccinotti, D., Ramalli, E., <b>Parravicini, A.</b>, Brondolin, R., & Santambrogio,
+									M.
+									D.
+									(2019, September). <b>Solving write conflicts in GPU-accelerated graph computation:
+										a
+										PageRank
+										case-study.</b> In IEEE International Forum on
+									Research and Technologies for Society and Industry (RTSI). IEEE. <a
+										href="resources/paper/Solving_write_conflicts_in_GPU-accelerated_graph_computation_a_PageRank_case-study.pdf"
+										target="_blank">Download</a>
+								</li>
+								<li>
+									Bertoldi, M. A., Cellamare, L., <b>Parravicini, A.</b>, & Santambrogio, M. D. (2019,
+									September). <b>Exploring transductive and inductive methods for vertex embedding in
+										biological
+										networks.</b> In IEEE International Forum on Research
+									and Technologies for Society and Industry (RTSI). IEEE. <a
+										href="resources/paper/Exploring_transductive_and_inductive_methods_for_vertex_embedding_in_biological_networks.pdf"
+										target="_blank">Download</a>
+								</li>
+								<li>
+									<b>Parravicini, A.</b>, Patra, R., Bartolini, D. B., & Santambrogio, M. D. (2019,
+									June).
+									<b>Fast and Accurate Entity Linking via Graph Embedding.</b> In Proceedings of the
+									2nd
+									Joint
+									International Workshop on Graph Data Management
+									Experiences & Systems (GRADES) and Network Data Analytics (NDA) (p. 10). ACM. <a
+										href="resources/paper/2019-Fast_and_Accurate_Entity_Linking_via_Graph_Embedding.pdf"
+										target="_blank">Download</a>
+								</li>
+								<li>
+									Stornaiuolo, L., <b>Parravicini, A.</b>, Sciuto, D., & Santambrogio, M. D. (2018,
+									May).
+									<b>FIDA: a framework to automatically integrate FPGA kernels within Data-Science
+										applications.</b>
+									In 2018 IEEE International Parallel and Distributed
+									Processing Symposium Workshops (IPDPSW) (pp. 198-201). IEEE. <a
+										href="resources/paper/2018-FIDA_A_framework_to_automatically_integrate_FPGA_kernels_within_data-science_applications.pdf"
+										target="_blank">Download</a>
+								</li>
+								<li>
+									Stornaiuolo, L., <b>Parravicini, A.</b>, Durelli, G., & Santambrogio, M. D. (2017,
+									May).
+									<b>Exploiting fpgas from higher level languages a signal analysis case study.</b> In
+									2017
+									IEEE
+									International Parallel and Distributed Processing
+									Symposium Workshops (IPDPSW) (pp. 132-140). IEEE. <a
+										href="resources/paper/2017-Exploiting_FPGAs_from_higher_level_languages_a_signal_analysis_case_study.pdf"
+										target="_blank">Download</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- END OF ALL PAPERS -->
+			</div>
 
-            <div class="col-4 col-md-2">
-            </div>
-        </div>
-    </div>
+			<div class="col-1 col-sm-2 col-md-2">
+			</div>
+		</div>
+	</div>
 
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="row justify-content-sm-center">
-                <div class="col col-1">
-                </div>
-                <div class="col col-3 footer-left">
-                    <p class="footer-text-left">
-                        Alberto Parravicini
-                    </p>
-                </div>
-                <div class="col col-7-sm footer-right">
-                    <div class="container-fluid d-flex h-100 flex-column footer-container">
-                        <div class="row">
-                            <div class="col email">
-                                <script language="JavaScript">
-                                    var username = "alberto.parravicini";
-                                    var hostname = "polimi.it";
-                                    var linktext = username + "@" + hostname;
-                                    document.write("<a class='email' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
-                                </script>
-                            </div>
-                        </div>
-                        <div class="row justify-content-end flex-grow-1">
-                            <div class="col-1-sm my-auto icon-boundary">
-                                <a class="icon" href="https://github.com/AlbertoParravicini" target="_blank"><i
-                                        class="fab fa-github fa-2x"></i></a>
-                            </div>
-                            <div class="col-1-sm my-auto icon-boundary">
-                                <a class="icon" href="https://bitbucket.org/AlbertoParravicini" target="_blank"><i
-                                        class="fab fa-bitbucket fa-2x" href="" target="_blank"></i></a>
-                            </div>
-                            <div class="col-1-sm my-auto icon-boundary">
-                                <a class="icon" href="https://www.linkedin.com/in/alberto-parravicini" target="_blank">
-                                    <i class="fab fa-linkedin fa-2x" href="" target="_blank"></i></a>
-                            </div>
-                        </div>
-                    </div>
+	<!-- FOOTER -->
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="hidden-xs col-sm-2">
+				</div>
+				<div class="col-12 col-md-2 footer-left">
+					<p class="footer-text-left">
+						Alberto Parravicini
+					</p>
+				</div>
+				<div class="col-12 col-md-6 footer-right">
+					<div class="container-fluid d-flex h-100 flex-column footer-container">
+						<div class="row">
+							<div class="col email">
+								<script language="JavaScript">
+									var username = "alberto.parravicini";
+									var hostname = "polimi.it";
+									var linktext = username + "@" + hostname;
+									document.write("<a class='email' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+								</script>
+							</div>
+						</div>
+						<div class="row justify-content-end flex-grow-1">
+							<div class="col-1-sm my-auto icon-boundary">
+								<a class="icon" href="https://github.com/AlbertoParravicini" target="_blank"><i
+									class="fab fa-github fa-2x"></i></a>
+							</div>
+							<div class="col-1-sm my-auto icon-boundary">
+								<a class="icon" href="https://bitbucket.org/AlbertoParravicini" target="_blank"><i
+									class="fab fa-bitbucket fa-2x" href="" target="_blank"></i></a>
+							</div>
+							<div class="col-1-sm my-auto icon-boundary">
+								<a class="icon" href="https://www.linkedin.com/in/alberto-parravicini" target="_blank">
+									<i class="fab fa-linkedin fa-2x" href="" target="_blank"></i></a>
+							</div>
+						</div>
+					</div>
 
-                </div>
-                <div class="col col-1">
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- END OF FOOTER -->
+				</div>
+				<div class="hidden-xs col-sm-2">
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- END OF FOOTER -->
 
-    <!-- Scripts required by Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+	<!-- Scripts required by Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>

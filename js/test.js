@@ -11,14 +11,11 @@ let heigth_offset = 120; // How much shorter the line is w.r.t. the canvas;
 let radius_1 = 20;
 let radius_2 = 30;
 
-let curr_pos = 0; // Current position of the circle;
-let prev_pos = 0; // Previous position of the circle;
-
 function setup() {
-	frameRate(30);
+  frameRate(30);
 	var canvasDiv = document.getElementById('drawing-box');
 	var width = canvasDiv.offsetWidth;
-		var height = canvasDiv.offsetHeight;
+  var height = canvasDiv.offsetHeight;
 	line_height = height - heigth_offset;
 	var canvas = createCanvas(width, height);
 	canvas.parent('drawing-canvas');
@@ -31,9 +28,9 @@ function setup() {
 function windowResized() {
 	var canvasDiv = document.getElementById('drawing-box');
 	var width = canvasDiv.offsetWidth;
-		var height = canvasDiv.offsetHeight;
-
-		line_height = height - heigth_offset;
+  var height = canvasDiv.offsetHeight;
+  
+  line_height = height - heigth_offset;
 		resizeCanvas(width, height);
 
 		background(255, 255, 255);
@@ -41,35 +38,23 @@ function windowResized() {
 			renderWave();
 }
 
-function mouseWheel(event) {
-	prev_pos = curr_pos;
-  curr_pos += event.delta;
-  curr_pos = max(0, curr_pos);
-  curr_pos = min(curr_pos, line_height);
-}
-
 function draw() {
-    var a = curr_pos > prev_pos ? prev_pos : curr_pos;
-    var b = curr_pos > prev_pos ? curr_pos : prev_pos;
-		update_step = max(10, (b - a) / 10);
-		for (let i = a; i <= b; i = i + update_step) {
-      background(255, 255, 255);
-      renderWave();
-      i = min(i, b);
-			var y = floor(i / yspacing);
-			y = min(y, xvalues.length - 1);
-			y = max(0, y);
-			drawCircle(
-				width / 2 + xvalues[y],
-				heigth_offset / 2 + y * yspacing,
-				radius_1
-				);
-			drawCircle(
-				width / 2 + xvalues[y],
-				heigth_offset / 2 + y * yspacing,
-				radius_2
-				);
-      }
+	background(255, 255, 255);
+  renderWave();
+
+  var y = floor(mouseY / yspacing);
+  y = min(y, xvalues.length - 1);
+  y = max(0, y);
+	drawCircle(
+    width / 2 + xvalues[y],
+    heigth_offset / 2 + y * yspacing,
+    radius_1
+    );
+	drawCircle(
+    width / 2 + xvalues[y],
+    heigth_offset / 2 + y * yspacing,
+    radius_2
+    );
 }
 
 function computeWave() {

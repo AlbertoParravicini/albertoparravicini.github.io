@@ -24,8 +24,8 @@
     <!-- TOP BAR -->
     <nav class="navbar navbar-expand-lg custom-navbar">
         <div class="navbar-brand navbar-text">Alberto Parravicini</div>
-        <button class="navbar-toggler navbar-button-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">Menu
+        <button class="navbar-toggler navbar-button-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">Menu
         </button>
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
@@ -48,18 +48,60 @@
     <!-- JUMBOTRON -->
     <div class="jumbotron jumbotron-fluid jumbotron-main">
         <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-3 jumbotron-left">
+                    <img src="img/alberto.jpg" alt="My face!" class="img-fluid image-face">
+                </div>
+                <div class="col-md-7 jumbotron-right">
+                    <!-- NAME -->
+                    <div class="row text-right justify-content-end">
+                        <h1 class="col jumbotron-right-name">Alberto<br>Parravicini</h1>
+                    </div>
+                    <!-- INTRO -->
+                    <div class="row text-right justify-content-end">
+                        <p class="col normal-text">Ph.D. student at Politecnico di Milano and NECSTLab,<br>working on
+                            High-Performance Graph Analytics</p>
+                    </div>
+                    <!-- MAIL -->
+                    <div class="row text-right justify-content-end">
+                        <div class="col jumbotron-email">
+                            <script language="JavaScript">
+                                var username = "alberto.parravicini";
+                                var hostname = "polimi.it";
+                                var linktext = username + "@" + hostname;
+                                document.write("<a class='jumbotron-email' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+                            </script>
+                        </div>
+                    </div>
+                    <!-- ICON LIST -->
+                    <div class="row text-right justify-content-end">
+                        <div class="col jumbotron-right-list">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a class="jumbotron-icon"
+                                        href="https://github.com/AlbertoParravicini" target="_blank"><i
+                                            class="fab fa-github fa-2x"></i></a></li>
+                                <li class="list-inline-item"><a class="jumbotron-icon"
+                                        href="https://bitbucket.org/AlbertoParravicini" target="_blank"><i
+                                            class="fab fa-bitbucket fa-2x" href="" target="_blank"></i></a></li>
+                                <li class="list-inline-item"> <a class="jumbotron-icon"
+                                        href="https://www.linkedin.com/in/alberto-parravicini" target="_blank">
+                                        <i class="fab fa-linkedin fa-2x" href="" target="_blank"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- MAIN CONTENT -->
     <div class="container">
         <!-- BIOGRAPHY -->
-        <div class="row justify-content-md-center padding-buffer">
+        <div class="row justify-content-center padding-buffer">
             <div class="col col-10">
                 <h1 class="section-title" id="bio">Biography</h1>
-                <p class="normal-text">
+                <p class="normal-text text-justify">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                     and scrambled it to make a type specimen book. It has
@@ -82,10 +124,10 @@
         <!-- END OF BIOGRAPHY -->
 
         <!-- TALKS -->
-        <div class="row justify-content-md-center padding-buffer">
+        <div class="row justify-content-center padding-buffer">
             <div class="col col-10">
                 <h1 class="section-title" id="talks">Selected Talks</h1>
-                <div class="normal-text">
+                <div class="normal-text text-justify">
                     <ul>
                         <li>
                             Lorem Ipsum is simply dummy
@@ -103,10 +145,10 @@
         <!-- END OF TALKS -->
 
         <!-- SELECTED PAPERS -->
-        <div class="row justify-content-md-center padding-buffer">
+        <div class="row justify-content-center padding-buffer">
             <div class="col col-10">
                 <h1 class="section-title" id="papers">Selected Publications</h1>
-                <div class="normal-text">
+                <div class="normal-text text-justify">
                     <ul>
                         <li>
                             <b>Parravicini, A.</b>, Patra, R., Bartolini, D. B., & Santambrogio, M. D. (2019, June).
@@ -131,10 +173,10 @@
         <!-- END OF SELECTED PAPERS -->
 
         <!-- ALL PAPERS -->
-        <div class="row justify-content-md-center padding-buffer">
+        <div class="row justify-content-center padding-buffer">
             <div class="col col-10">
                 <h1 class="section-title">All Publications</h1>
-                <div class="normal-text">
+                <div class="normal-text text-justify">
                     <ul>
                         <li>
                             Piccinotti, D., Ramalli, E., <b>Parravicini, A.</b>, Brondolin, R., & Santambrogio, M. D.
@@ -195,7 +237,7 @@
                     </p>
                 </div>
                 <div class="col col-7-sm footer-right">
-                    <div class="container-fluid d-flex h-100 flex-column">
+                    <div class="container-fluid d-flex h-100 flex-column footer-container">
                         <div class="row">
                             <div class="col email">
                                 <script language="JavaScript">

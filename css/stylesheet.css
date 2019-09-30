@@ -17,7 +17,7 @@
 }
 
 footer {
-    padding: 3rem 0;
+    padding: 2.5rem 0;
     margin-top: 40px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -52,8 +52,7 @@ h4 {
 
 .footer-left {
     margin-bottom: 0px;
-    margin-left: 45px;
-    padding-left: 5px;
+    padding-left: 0em;
     font-size: 2em;
     font-family: "Playfair Display", "Times New Roman", serif;
     font-weight: normal;
@@ -62,7 +61,7 @@ h4 {
 
 .footer-right {
     margin-bottom: 0px;
-    margin-right: 40px;
+    padding-right: 0em;
     font-size: 1.2em;
     color: #ffffff;
     font-family: "Latin Modern", "Times New Roman", serif;
@@ -74,10 +73,6 @@ h4 {
     margin-bottom: 0px;
 }
 
-a.email:link, a.email:visited, a.email:hover, a.email:active {
-    color: #ffffff;
-}
-
 .email {
     padding-right: 5px;
 }
@@ -87,12 +82,51 @@ a.email:link, a.email:visited, a.email:hover, a.email:active {
     margin-right: 10px;
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 10px;
 }
 
-a.icon:link, a.icon:visited, a.icon:active {
+a.icon:link, a.icon:visited, a.icon:active, a.top-link:link, a.top-link:visited, a.top-link:active, a.email:link, a.email:visited, a.email:active {
     color: #ffffff;
 }
 
-a.icon:hover {
+a.icon:hover, a.top-link:hover, a.email:hover {
     color: #9b9b9b;
+}
+
+.custom-navbar {
+    background: #3f3e3e;
+    color: #ffffff;
+    font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+.navbar-text {
+    font-size: 1.2em;
+}
+
+.jumbotron-main {
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.navbar-button {
+    height: 1.2em;
+    display: inline-flex;
+    align-items: center; 
+}
+
+.navbar-button-toggler {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 0em;
+    padding-left: 0em;
+    color: #ffffff;
+}
+
+.navbar-button-toggler:hover {
+    color: #9b9b9b;
+}
+
+.navbar-button-toggler:hover, .navbar-button-toggler:active, .navbar-button-toggler:focus  {
+    outline :none;
+    text-decoration: none;
 }

@@ -21,11 +21,44 @@
 </head>
 
 <body>
+    <!-- TOP BAR -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="navbar-brand navbar-text">Alberto Parravicini</div>
+        <button class="navbar-toggler navbar-button-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">Menu
+        </button>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item">
+                    <a class="nav-link top-link navbar-text" href="#bio">Biography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link top-link navbar-text" href="#cv">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link top-link navbar-text" href="#talks">Talks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link top-link navbar-text" href="#papers">Publications</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron jumbotron-fluid jumbotron-main">
+        <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
     <div class="container">
         <!-- BIOGRAPHY -->
-        <div class="row justify-content-8-md-center padding-buffer">
-            <div class="col col-auto">
-                <h1 class="section-title">Biography</h1>
+        <div class="row justify-content-md-center padding-buffer">
+            <div class="col col-10">
+                <h1 class="section-title" id="bio">Biography</h1>
                 <p class="normal-text">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -38,7 +71,7 @@
                 <div>
                     <h4>
                         <ul>
-                            <li>
+                            <li id="cv">
                                 Curriculum Vitae
                             </li>
                         </ul>
@@ -49,9 +82,9 @@
         <!-- END OF BIOGRAPHY -->
 
         <!-- TALKS -->
-        <div class="row justify-content-8-md-center padding-buffer">
-            <div class="col col-auto">
-                <h1 class="section-title">Selected Talks</h1>
+        <div class="row justify-content-md-center padding-buffer">
+            <div class="col col-10">
+                <h1 class="section-title" id="talks">Selected Talks</h1>
                 <div class="normal-text">
                     <ul>
                         <li>
@@ -70,9 +103,9 @@
         <!-- END OF TALKS -->
 
         <!-- SELECTED PAPERS -->
-        <div class="row justify-content-8-md-center padding-buffer">
-            <div class="col col-auto">
-                <h1 class="section-title">Selected Publications</h1>
+        <div class="row justify-content-md-center padding-buffer">
+            <div class="col col-10">
+                <h1 class="section-title" id="papers">Selected Publications</h1>
                 <div class="normal-text">
                     <ul>
                         <li>
@@ -98,8 +131,8 @@
         <!-- END OF SELECTED PAPERS -->
 
         <!-- ALL PAPERS -->
-        <div class="row justify-content-8-md-center padding-buffer">
-            <div class="col col-auto">
+        <div class="row justify-content-md-center padding-buffer">
+            <div class="col col-10">
                 <h1 class="section-title">All Publications</h1>
                 <div class="normal-text">
                     <ul>
@@ -153,13 +186,15 @@
     <!-- FOOTER -->
     <footer>
         <div class="container">
-            <div class="row justify-content-8-md-center">
+            <div class="row justify-content-sm-center">
+                <div class="col col-1">
+                </div>
                 <div class="col col-3 footer-left">
                     <p class="footer-text-left">
                         Alberto Parravicini
                     </p>
                 </div>
-                <div class="col col-9-md footer-right">
+                <div class="col col-7-sm footer-right">
                     <div class="container-fluid d-flex h-100 flex-column">
                         <div class="row">
                             <div class="col email">
@@ -172,20 +207,23 @@
                             </div>
                         </div>
                         <div class="row justify-content-end flex-grow-1">
-                            <div class="col-1 my-auto icon-boundary">
+                            <div class="col-1-sm my-auto icon-boundary">
                                 <a class="icon" href="https://github.com/AlbertoParravicini" target="_blank"><i
                                         class="fab fa-github fa-2x"></i></a>
                             </div>
-                            <div class="col-1 my-auto icon-boundary">
+                            <div class="col-1-sm my-auto icon-boundary">
                                 <a class="icon" href="https://bitbucket.org/AlbertoParravicini" target="_blank"><i
                                         class="fab fa-bitbucket fa-2x" href="" target="_blank"></i></a>
                             </div>
-                            <div class="col-1 my-auto icon-boundary">
-                                <a class="icon" href="https://www.linkedin.com/in/alberto-parravicini" target="_blank"> <i
-                                        class="fab fa-linkedin fa-2x" href="" target="_blank"></i></a>
+                            <div class="col-1-sm my-auto icon-boundary">
+                                <a class="icon" href="https://www.linkedin.com/in/alberto-parravicini" target="_blank">
+                                    <i class="fab fa-linkedin fa-2x" href="" target="_blank"></i></a>
                             </div>
                         </div>
                     </div>
+
+                </div>
+                <div class="col col-1">
                 </div>
             </div>
         </div>

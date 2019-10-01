@@ -32,13 +32,8 @@ let circlesmally;
 function setup() {
 	frameRate(30);
   var canvasDiv = document.getElementById('drawing-box');
-  var contentDivs = document.getElementsByClassName('content');
-  var height = extra_height;
-  for (let i = 0; i < contentDivs.length; i++) {
-    height += contentDivs[i].offsetHeight;
-  }
   var width = canvasDiv.offsetWidth;
-  // var height = canvasDiv.offsetHeight;
+  var height = getCanvasHeight();
 	line_height = height - heigth_offset;
 	var canvas = createCanvas(width, height);
 	canvas.parent('drawing-canvas');
@@ -53,13 +48,7 @@ function setup() {
 function windowResized() {
 	var canvasDiv = document.getElementById('drawing-box');
 	var width = canvasDiv.offsetWidth;
-  // var height = canvasDiv.offsetHeight;
-  var contentDivs = document.getElementsByClassName('content');
-  var height = extra_height;
-  for (let i = 0; i < contentDivs.length; i++) {
-    height += contentDivs[i].offsetHeight;
-  }
-
+  var height = getCanvasHeight();
 	line_height = height - heigth_offset;
 	resizeCanvas(width, height);
 
@@ -152,6 +141,17 @@ function draw() {
 /////////////////////////////
 /////////////////////////////
 
+function getCanvasHeight() {
+  // Obtain the line height as sum of the heights of the content panels.
+  // Trick required to allow page resizing without having extra empty space at the bottom;
+  var contentDivs = document.getElementsByClassName('content');
+  var height = extra_height;
+  for (let i = 0; i < contentDivs.length; i++) {
+    height += contentDivs[i].offsetHeight;
+  }
+  return height;
+}
+
 function computeWave() {
 	amplitude = width / 5;
 	radius_1 = max(width / 9, 12);
@@ -162,7 +162,7 @@ function computeWave() {
 }
 
 function calcWave() {
-	// For every y value, calculate a x value with sine function
+	// For every y value, calculate a x value with sine function;
 	let y = theta;
 	for (let i = 0; i < xvalues.length; i++) {
 		xvalues[i] = sin(y) * amplitude;

@@ -1,0 +1,31 @@
+.image-container {
+    padding-bottom: 100%;
+    background-color: aliceblue;
+}
+
+.image-fill {
+	position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+    bottom: 1.5em;
+    right: 1.5em;
+    overflow: hidden;
+} 
+
+.image {
+    max-height:100%;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.image:hover {opacity: 0.7;}
+
+.image-col {
+    padding: 1.5em;
+}
+
+.pictures-container {
+    padding-top: 5em;
+    padding-bottom: 3em;
+}

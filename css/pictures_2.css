@@ -1,22 +1,52 @@
 .image {
     width: 100%;
     max-width: 100%;
-    cursor: pointer;
+    pointer-events: none;
+    cursor: default;
 }
 
-.image:hover {
-    opacity: 0.7;
+/* Disable zoom on small screen, as images are already wide enough */
+@media (min-width: 768px) {
+    .image {
+        cursor: pointer;
+        pointer-events: all;
+    }
+    .image:hover {
+        opacity: 0.7;
+    }
 }
 
 .image-col {
-    padding: 0.8em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+@media (min-width: 768px) {
+    .image-col {
+        padding: 0.8em;
+    }
+}
+
+.image-row {
+    margin: 0px;
 }
 
 .pictures-container {
-    padding-top: 5em;
-    padding-bottom: 3em;
-    padding-left: 6em;
-    padding-right: 6em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+@media (min-width: 768px) {
+    .pictures-container {
+        padding-top: 5em;
+        padding-bottom: 3em;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
 }
 
 .modal {

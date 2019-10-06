@@ -6,6 +6,7 @@
 }
 
 /* Disable zoom on small screen, as images are already wide enough */
+
 @media (min-width: 768px) {
     .image {
         cursor: pointer;
@@ -76,17 +77,57 @@
     width: auto;
 }
 
-.close {
+.close-modal {
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 0%;
+    right: 0.5em;
+    padding: 0.3em;
     color: #f1f1f1;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
+    transition: 0.3s ease;
+    opacity: 0.5;
 }
 
-.close:hover, .close:focus {
-    color: #bbb;
+.close-modal:hover, .close-modal:focus {
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1em;
+    margin-top: -50px;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s ease;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.5;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0.5em;
+}
+
+.prev {
+    left: 0.5em;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    opacity: 1;
     cursor: pointer;
 }

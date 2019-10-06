@@ -1,2 +1,1 @@
-* scroll images (https://www.w3schools.com/howto/howto_js_lightbox.asp)
 * fixa ordine images

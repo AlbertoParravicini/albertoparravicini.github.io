@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://albertoparravicini.github.io/</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://albertoparravicini.github.io/pictures.html</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://albertoparravicini.github.io/resources/cv/curriculum_vitae.pdf</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://albertoparravicini.github.io/resources/talks/[Grades]%20Fast%20Entity%20Linking%20via%20Graph%20Embeddings.pdf</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://albertoparravicini.github.io/resources/talks/[NGCX-Google]%20Gospel%20-%20Research%20Line.pdf</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://albertoparravicini.github.io/resources/paper/2019-Fast_and_Accurate_Entity_Linking_via_Graph_Embedding.pdf</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://albertoparravicini.github.io/resources/paper/2017-Exploiting_FPGAs_from_higher_level_languages_a_signal_analysis_case_study.pdf</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://albertoparravicini.github.io/resources/paper/Solving_write_conflicts_in_GPU-accelerated_graph_computation_a_PageRank_case-study.pdf</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://albertoparravicini.github.io/resources/paper/Exploring_transductive_and_inductive_methods_for_vertex_embedding_in_biological_networks.pdf</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://albertoparravicini.github.io/resources/paper/2018-FIDA_A_framework_to_automatically_integrate_FPGA_kernels_within_data-science_applications.pdf</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://albertoparravicini.github.io/index.html</loc>
+  <lastmod>2020-02-03T11:35:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

@@ -16,11 +16,45 @@
     font-weight: bold;
 }
 
-.section-title {
-    color: #3f3e3e;
-    font-size: 3.4em;
-    font-family: "Playfair Display", "Times New Roman", serif;
-    font-weight: normal;
+/* Small devices (landscape phones, 544px and up) */
+
+@media (min-width: 544px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 2.7rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 3.3rem;
+    }
+}
+
+footer {
+    padding: 2.5rem 0;
+    margin-top: 2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #3f3e3e;
+    border-top: .05rem solid #e5e5e5;
 }
 
 h4 {
@@ -29,11 +63,164 @@ h4 {
     font-weight: normal;
 }
 
+.section-title {
+    color: #3f3e3e;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: normal;
+}
+
 .normal-text {
     color: #2f2f2f;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: "Latin Modern", "Times New Roman", serif;
     font-weight: normal;
 }
 
-.top-buffer { margin-top:20px; }
+.padding-buffer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-left {
+    /* margin-bottom: 0px;
+    padding-left: 0em; */
+    font-size: 2em;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+.footer-right {
+    /* margin-bottom: 0px;
+    padding-right: 0em; */
+    font-size: 1.2em;
+    color: #ffffff;
+    font-family: "Latin Modern", "Times New Roman", serif;
+    font-weight: normal;
+    text-align: right;
+}
+
+.footer-text-left {
+    margin-bottom: 0px;
+}
+
+.footer-container {
+    padding-top: 10px;
+}
+
+.email {
+    padding-right: 5px;
+}
+
+.icon-boundary {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+
+a.icon:link, a.icon:visited, a.icon:active, a.top-link:link, a.top-link:visited, a.top-link:active, a.email:link, a.email:visited, a.email:active {
+    color: #ffffff;
+}
+
+a.icon:hover, a.top-link:hover, a.email:hover {
+    color: #aaa9a9;
+}
+
+.custom-navbar {
+    background: #3f3e3e;
+    color: #ffffff;
+    font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+.navbar-text {
+    font-size: 1.2em;
+}
+
+.navbar-button {
+    height: 1.2em;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar-button-toggler {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 0em;
+    padding-left: 0em;
+    color: #ffffff;
+}
+
+.navbar-button-toggler:hover {
+    color: #aaa9a9;
+}
+
+.navbar-button-toggler:hover, .navbar-button-toggler:active, .navbar-button-toggler:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.jumbotron-main {
+    margin-top: 4em;
+    margin-bottom: 3em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    /* background-image: url("../img/F62A3758.jpg");
+    background-size: cover; */
+    color: white;
+}
+
+.jumbotron-right-name {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #3f3e3e;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: normal;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.image-face {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+a.jumbotron-icon:link, a.jumbotron-icon:visited, a.jumbotron-icon:active, a.jumbotron-top-link:link, a.jumbotron-top-link:visited, a.jumbotron-top-link:active, a.jumbotron-email:link, a.jumbotron-email:visited, a.jumbotron-email:active {
+    color: #3f3e3e;
+}
+
+a.jumbotron-icon:hover, a.jumbotron-top-link:hover, a.jumbotron-email:hover {
+    color: #aaa9a9;
+}
+
+.jumbotron-icon-list {
+    margin-top: 10px;
+}
+
+.jumbotron-email {
+    font-size: 1.1em;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-family: "Latin Modern", "Times New Roman", serif;
+    font-weight: normal;
+}
+
+a.cv:link, a.cv:visited, a.cv:active {
+    color: #2f2f2f;
+}
+
+a.cv:hover {
+    color: #aaa9a9;
+}
+
+a.brand-name:link, a.brand-name:visited, a.brand-name:active, a.brand-name {
+    color: #ffffff;
+}
+
+a.brand-name:hover {
+    color: #aaa9a9;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Alberto Parravicini - Pictures</title>
+	<meta name="author" content="Alberto Parravicini">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description"
+		content="A selection of pictures shot by Alberto Parravicini. I especially enjoy macro photography and minimalistic compositions, with a few architectural, landscape and hot enamel jewelry shots here and there. I hope you will enjoy the pictures!">
+
+	<!-- Load Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- Load Playfair font -->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+	<!-- Load CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="./css/pictures.css" />
+	<!-- Fontawesome icons -->
+	<script src="https://kit.fontawesome.com/05e0ed1a1e.js" crossorigin="anonymous"></script>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<!-- TOP BAR -->
+	<nav class="navbar navbar-expand-lg custom-navbar">
+		<a class="navbar-brand navbar-text brand-name" href="index.html">Alberto Parravicini</a>
+		<button class="navbar-toggler navbar-button-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">Menu
+		</button>
+		<div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+			<ul class="navbar-nav ml-auto flex-nowrap">
+				<li class="nav-item">
+					<a class="nav-link top-link navbar-text" href="index.html#bio">Biography</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link top-link navbar-text" href="index.html#cv">CV</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link top-link navbar-text" href="index.html#talks">Talks</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link top-link navbar-text" href="index.html#papers">Publications</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link top-link navbar-text" href="#">Pictures</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid pictures-container">
+		<!-- ROW 1 -->
+		<div class="row justify-content-center image-row">
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+		</div>
+		<!-- ROW 2 -->
+		<div class="row justify-content-center image-row">
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+		</div>
+		<!-- ROW 3 -->
+		<div class="row justify-content-center image-row">
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+		</div>
+		<!-- ROW 4 -->
+		<div class="row justify-content-center image-row">
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+		</div>
+
+		<!-- ROW 5 -->
+		<div class="row justify-content-center image-row">
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+		</div>
+		<!-- ROW 6 -->
+		<div class="row justify-content-center image-row">
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+			<div class="col-12 col-md-6 col-xl-6 image-col">
+				<img class="image image-zoomable" alt="img">
+			</div>
+		</div>
+
+		<!-- MODAL, IMAGE ZOOM -->
+		<div id="modal-img-container" class="modal">
+			<div class="close-modal">&times;</div>
+			<img id="modal-img" class="modal-img-content">
+			<!-- Next/previous controls -->
+			<div class="prev" id="left-arrow">&#10094;</div>
+			<div class="next" id="right-arrow">&#10095;</div>
+		</div>
+	</div>
+
+
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="hidden-xs col-sm-2">
+				</div>
+				<div class="col-12 col-md-2 footer-left">
+					<p class="footer-text-left">
+						Alberto Parravicini
+					</p>
+				</div>
+				<div class="col-12 col-md-6 footer-right">
+					<div class="container-fluid d-flex h-100 flex-column footer-container">
+						<div class="row">
+							<div class="col email">
+								<script language="JavaScript">
+									var username = "alberto.parravicini";
+									var hostname = "polimi.it";
+									var linktext = username + "@" + hostname;
+									document.write("<a class='email' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+								</script>
+							</div>
+						</div>
+						<div class="row justify-content-end flex-grow-1">
+							<div class="col-1-sm my-auto icon-boundary">
+								<a class="icon" href="https://github.com/AlbertoParravicini" target="_blank"><i
+										class="fab fa-github fa-2x"></i></a>
+							</div>
+							<div class="col-1-sm my-auto icon-boundary">
+								<a class="icon" href="https://bitbucket.org/AlbertoParravicini" target="_blank"><i
+										class="fab fa-bitbucket fa-2x" href="" target="_blank"></i></a>
+							</div>
+							<div class="col-1-sm my-auto icon-boundary">
+								<a class="icon" href="https://www.linkedin.com/in/alberto-parravicini" target="_blank">
+									<i class="fab fa-linkedin fa-2x" href="" target="_blank"></i></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="hidden-xs col-sm-2">
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- END OF FOOTER -->
+
+	<!-- Zoom image script -->
+	<script type="text/javascript" src="js/modal.js"></script>
+	<!-- Scripts required by Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

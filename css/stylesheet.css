@@ -16,6 +16,12 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../font/ProximaNova-Regular.otf");
+    font-weight: normal;
+}
+
 /* Small devices (landscape phones, 544px and up) */
 
 @media (min-width: 544px) {
@@ -124,7 +130,7 @@ a.icon:link, a.icon:visited, a.icon:active, a.top-link:link, a.top-link:visited,
     color: #ffffff;
 }
 
-a.icon:hover, a.top-link:hover, a.email:hover {
+a.icon:hover, a.top-link:hover, a.email:hover, a.navbar-text-pictures:hover {
     color: #aaa9a9;
 }
 

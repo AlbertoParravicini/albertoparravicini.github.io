@@ -43,7 +43,7 @@
 
 @media (min-width: 768px) {
     .pictures-container {
-        padding-top: 5em;
+        padding-top: 2em;
         padding-bottom: 3em;
         padding-left: 5em;
         padding-right: 5em;
@@ -130,4 +130,36 @@
     text-decoration: none;
     opacity: 1;
     cursor: pointer;
+}
+
+.navbar-text-pictures {
+    font-size: 0.9em;
+    color: #3f3e3e;
+    display: inline;
+    font-family: "Proxima Nova", "Times New Roman", serif;
+    letter-spacing: 0.07em;
+    font-weight: 400;
+}
+
+.custom-navbar-pictures {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: #ffffff;
+    color: #3f3e3e;
+    font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+.navbar.centered .navbar-inner {
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .navbar.centered .navbar-inner {
+        text-align: center;
+    }
+
+.navbar.centered .navbar-inner .nav {
+    float: none;
+    display: inline-flex;
+    vertical-align: middle;
 }

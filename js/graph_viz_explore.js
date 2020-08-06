@@ -1,6 +1,6 @@
 // Coordinate system used inside the svg viewBox;
-var heightSvg = 300
-var widthSvg = 300
+var heightSvg = 200
+var widthSvg = 200
 var graphZoomFactor = 1.4
 var radiusSize = 5
 

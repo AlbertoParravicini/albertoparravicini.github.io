@@ -18,6 +18,9 @@
 	<!-- Load CSS -->
 	<link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
 	<link rel="stylesheet" type="text/css" href="./css/pictures.css" />
+	<!-- Load d3.js -->
+	<script src="https://d3js.org/d3.v5.js"></script>
+	<script src="https://d3js.org/d3-random.v2.min.js"></script>
 	<!-- Fontawesome icons -->
 	<script src="https://kit.fontawesome.com/05e0ed1a1e.js" crossorigin="anonymous"></script>
 	<!-- jQuery -->
@@ -184,10 +187,14 @@
 				<div class="hidden-xs col-sm-2">
 				</div>
 			</div>
+			<!-- GRAPH VISUALIZATION -->
+            <div id="graph-viz-main"></div>
 		</div>
 	</footer>
 	<!-- END OF FOOTER -->
-
+	<!-- Script used for graph -->
+	<script type="text/javascript" src="js/graph.js"></script>
+	<script type="text/javascript" src="js/graph_viz_explore.js"></script>
 	<!-- Zoom image script -->
 	<script type="text/javascript" src="js/modal.js"></script>
 	<!-- Scripts required by Bootstrap -->

@@ -31,9 +31,9 @@ let circlesmally;
 
 function setup() {
 	frameRate(30);
-  var canvasDiv = document.getElementById('drawing-box');
-  var width = canvasDiv.offsetWidth;
-  var height = getCanvasHeight();
+	var canvasDiv = document.getElementById('drawing-box');
+	var width = canvasDiv.offsetWidth;
+	var height = getCanvasHeight();
 	line_height = height - heigth_offset;
 	var canvas = createCanvas(width, height);
 	canvas.parent('drawing-canvas');
@@ -48,7 +48,7 @@ function setup() {
 function windowResized() {
 	var canvasDiv = document.getElementById('drawing-box');
 	var width = canvasDiv.offsetWidth;
-  var height = getCanvasHeight();
+	var height = getCanvasHeight();
 	line_height = height - heigth_offset;
 	resizeCanvas(width, height);
 
@@ -60,7 +60,7 @@ function windowResized() {
 /////////////////////////////
 
 function draw() {
-  strokeWeight(1.5);
+	strokeWeight(1.5);
 	stroke(63, 62, 62);
 	background(255, 255, 255);
 	renderWave();
@@ -142,14 +142,14 @@ function draw() {
 /////////////////////////////
 
 function getCanvasHeight() {
-  // Obtain the line height as sum of the heights of the content panels.
-  // Trick required to allow page resizing without having extra empty space at the bottom;
-  var contentDivs = document.getElementsByClassName('content');
-  var height = extra_height;
-  for (let i = 0; i < contentDivs.length; i++) {
-    height += contentDivs[i].offsetHeight;
-  }
-  return height;
+	// Obtain the line height as sum of the heights of the content panels.
+	// Trick required to allow page resizing without having extra empty space at the bottom;
+	var contentDivs = document.getElementsByClassName('content');
+	var height = extra_height;
+	for (let i = 0; i < contentDivs.length; i++) {
+		height += contentDivs[i].offsetHeight;
+	}
+	return height;
 }
 
 function computeWave() {

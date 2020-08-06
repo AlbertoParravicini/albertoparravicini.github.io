@@ -141,6 +141,10 @@
     font-weight: 400;
 }
 
+.nav-item-picture {
+    display: inline-block;
+}
+
 .custom-navbar-pictures {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -153,10 +157,11 @@
     text-align: left;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .navbar.centered .navbar-inner {
         text-align: center;
     }
+}
 
 .navbar.centered .navbar-inner .nav {
     float: none;

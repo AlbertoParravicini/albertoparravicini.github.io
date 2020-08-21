@@ -1,18 +1,35 @@
 // Pictures array;
 img_path = "resources/img/pictures/";
 img_src = [
-  "F62A3701-2.jpg",
-  "F62A3691-2.jpg",
-  "IMG_0024-2.jpg",
-  "F62A6903-2.jpg",
-  "F62A3141-2.jpg",
-  "IMG_4404-2.jpg",
-  "F62A3684-2.jpg",
-  "F62A3668-2.jpg",
-  "F62A3660-2.jpg",
-  "F62A2211-2.jpg",
+  // "F62A3701-2.jpg",
+  // "F62A3691-2.jpg",
+  // "IMG_0024-2.jpg",
+  // "F62A6903-2.jpg",
+  // "F62A3141-2.jpg",
+  // "IMG_4404-2.jpg",
+  // "F62A3684-2.jpg",
+  // "F62A3668-2.jpg",
+  // "F62A3660-2.jpg",
+  // "F62A2211-2.jpg",
+  // "IMG_4700-2.jpg",
+  // "IMG_0859-2.jpg"
   "IMG_4700-2.jpg",
-  "IMG_0859-2.jpg"
+  "F62A4960.jpg",
+  "F62A5104.jpg",
+  "F62A4858.jpg",
+
+  "F62A3141-2.jpg",
+  "IMG_0024-2.jpg",
+  "F62A3701-2.jpg",
+  "IMG_0859-2.jpg",
+
+  "F62A3660-2.jpg",
+  "F62A3668-2.jpg",
+  "F62A3684-2.jpg",
+  "F62A3691-2.jpg",
+
+  "F62A2211-2.jpg",
+  "IMG_4404-2.jpg"
 ];
 // Fix paths;
 for (let i = 0; i < img_src.length; i++) {

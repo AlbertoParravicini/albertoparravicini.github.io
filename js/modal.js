@@ -19,7 +19,9 @@ img_src = [
   "F62A4858.jpg",
 
   "F62A3141-2.jpg",
+  "IMG_1788.jpg",
   "IMG_0024-2.jpg",
+  "IMG_1836.jpg",
   "F62A3701-2.jpg",
   "IMG_0859-2.jpg",
 

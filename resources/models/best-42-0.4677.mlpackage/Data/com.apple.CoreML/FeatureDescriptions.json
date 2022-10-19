@@ -1,0 +1,18 @@
+{
+  "Outputs" : {
+    "logits_faces" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "logits" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "Inputs" : {
+    "video" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "TrainingInputs" : {
+
+  }
+}
